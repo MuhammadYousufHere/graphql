@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "0.1.0",
+  "description": "GraphQL Apollo Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Muhammad Yousuf",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "^3.10.3",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
